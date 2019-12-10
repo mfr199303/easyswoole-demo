@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Middleware/CORSMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Middleware/TokenValidationMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-    </list>
+    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +196,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/下载/easyswoole-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -294,12 +290,12 @@
       <workItem from="1575626784725" duration="4000" />
       <workItem from="1575680195231" duration="3124000" />
       <workItem from="1575853477886" duration="17245000" />
-      <workItem from="1575940668396" duration="15018000" />
+      <workItem from="1575940668396" duration="15627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303953000" />
+    <option name="totallyTimeSpent" value="304562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +311,7 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5005513" side_tool="true" weight="0.29556927" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49944875" visible="true" weight="0.3129557" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49944875" visible="true" weight="0.31071228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="2" />
