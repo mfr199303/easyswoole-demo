@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App/Middleware/CORSMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Middleware/TokenValidationMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#118#171#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+              <folding>
+                <element signature="e#125#161#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+              <folding>
+                <element signature="e#145#194#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/publicCallController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>index</find>
+      <find>listCustomerByParams</find>
+      <find>with</find>
+      <find>handleRelation</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/App/HttpController/Middleware/CORSMiddleware.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Main/jiance.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Main/Index.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Middleware/TokenValidationMiddleware.php" />
+        <option value="$PROJECT_DIR$/App/Middleware/CORSMiddleware.php" />
+        <option value="$PROJECT_DIR$/App/Middleware/TokenValidationMiddleware.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/index.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Model/userBeansss.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/BaseModel.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Model/UserBean.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Model/UserModel.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Router.php" />
+        <option value="$PROJECT_DIR$/App/Task/TaskOne.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserAccountConterolle.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/FileHandler.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/RedisHandler.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Model/CustomerShop.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UseraccountConterolle.php" />
+        <option value="$PROJECT_DIR$/App/Crontab/TaskOne.php" />
+        <option value="$PROJECT_DIR$/dev.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserConterolle.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserConteroller.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/CustomerConterollersss.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Model/Customer.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/User/Controller/CustomerConteroller.php" />
+        <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/publicCallController.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerProductWeixin.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Router.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerFission.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerPromotion.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShop.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShopSupport.php" />
+        <option value="$PROJECT_DIR$/Log/log.log" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerFission.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerShopSupportBuilders.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerPromotionBuilders.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/App/Utils/common_utils.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Utils/common_utils.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerShopBuilders.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilders.php" />
+        <option value="$PROJECT_DIR$/App/Builders/CustomerBuilder.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/BaseBuilders.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/publicCallController.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/easyswoole/component" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/log" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/utility" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/swoole-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/validate" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/http" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/trigger" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/config" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/spl" />
+      <path value="$PROJECT_DIR$/vendor/jeremeamia/superclosure" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/easyswoole" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/mysqli" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/words-match" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/session" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/annotation" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/task" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/ddl" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/pool" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/orm" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="Log" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/HttpController" />
+      <recent name="$PROJECT_DIR$/App" />
+      <recent name="$PROJECT_DIR$/App/HttpController/Modules/Customer" />
+      <recent name="$PROJECT_DIR$/App/Crontab" />
+      <recent name="$PROJECT_DIR$/App/HttpController/Modules/Main/Controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/HttpController/Builders" />
+      <recent name="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model" />
+      <recent name="$PROJECT_DIR$/App/HttpController" />
+      <recent name="$PROJECT_DIR$/App/HttpController/Modules/User/Controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="Index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/App/HttpController/Index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.Index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="" />
+      <created>1571293718749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571293718749</updated>
+      <workItem from="1571293720105" duration="4393000" />
+      <workItem from="1571365341456" duration="7003000" />
+      <workItem from="1571463461439" duration="2074000" />
+      <workItem from="1571619992498" duration="4239000" />
+      <workItem from="1571706519779" duration="3437000" />
+      <workItem from="1572684947359" duration="611000" />
+      <workItem from="1572857350550" duration="2447000" />
+      <workItem from="1572916192169" duration="14753000" />
+      <workItem from="1573004333952" duration="15494000" />
+      <workItem from="1573088691537" duration="9182000" />
+      <workItem from="1573175228947" duration="18398000" />
+      <workItem from="1573355035787" duration="15000" />
+      <workItem from="1573368028010" duration="1315000" />
+      <workItem from="1573434847293" duration="13518000" />
+      <workItem from="1573521270329" duration="14927000" />
+      <workItem from="1573607178346" duration="17990000" />
+      <workItem from="1573693473071" duration="10135000" />
+      <workItem from="1573780253578" duration="5608000" />
+      <workItem from="1573866408624" duration="11549000" />
+      <workItem from="1574039104121" duration="5980000" />
+      <workItem from="1574126393638" duration="599000" />
+      <workItem from="1574217515849" duration="646000" />
+      <workItem from="1574406806749" duration="5657000" />
+      <workItem from="1574558731872" duration="11885000" />
+      <workItem from="1574730656469" duration="1092000" />
+      <workItem from="1574761050796" duration="2014000" />
+      <workItem from="1574844891209" duration="2837000" />
+      <workItem from="1574903178900" duration="5164000" />
+      <workItem from="1574989841870" duration="10481000" />
+      <workItem from="1575077241767" duration="19495000" />
+      <workItem from="1575248883256" duration="15951000" />
+      <workItem from="1575334963892" duration="20370000" />
+      <workItem from="1575421977475" duration="7506000" />
+      <workItem from="1575526881401" duration="1198000" />
+      <workItem from="1575603903539" duration="599000" />
+      <workItem from="1575626784725" duration="4000" />
+      <workItem from="1575680195231" duration="3124000" />
+      <workItem from="1575853477886" duration="17245000" />
+      <workItem from="1575940668396" duration="15018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="303953000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5005513" side_tool="true" weight="0.29556927" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49944875" visible="true" weight="0.3129557" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserController.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Model/userBeansss.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Model/userModelsss.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/mysqli/src/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Process/ProcessQueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#126#175#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/mysqli/src/Mysqli.php" />
+    <entry file="file://$USER_HOME$/桌面/BaseModel.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Router.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserAccountConterolle.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/session/src/AbstractSessionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/redis/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1393">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Model/UserModel.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Model/UserBean.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/orm/src/DbManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/RedisHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Crontab/TaskOne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/easyswoole/src/ServerManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1040">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/orm/src/Db/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5640">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Controller/CustomerConterollersss.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserConteroller.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/ddl/src/Blueprint/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/orm/src/Utility/Schema/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/BaseModel.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/http/src/AbstractInterface/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/http/src/Message/Status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/publicCallController.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerPromotion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/orm/src/AbstractModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="744" column="9" lean-forward="true" selection-start-line="744" selection-start-column="9" selection-end-line="744" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShopSupportss.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShopSupport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="66" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+            <element signature="e#120#144#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerProductWeixin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#141#174#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerFission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerPromotionBuilders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerFissionBuilders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerShopSupportBuilders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Utils/common_utils.php" />
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#118#171#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="e#144#199#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="e#125#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/BaseBuilders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerShopBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#125#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/publicCallController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+          <folding>
+            <element signature="e#145#194#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
