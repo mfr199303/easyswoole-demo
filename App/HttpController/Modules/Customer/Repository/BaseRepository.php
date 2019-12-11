@@ -17,35 +17,29 @@ use App\HttpController\Modules\Customer\Repository\Interfase\BaseRepositoryInter
 
 class BaseRepository implements BaseRepositoryInterface
 {
-    public function listCustomerByParams($params, $sort = ['id'=>'desc'], $pageSize = null,$page =1)
+    public function listCustomerByParams($params, $sort = ['customer.id'=>'desc'], $pageSize = null,$page =1)
     {
-       $model = new Customer();
-
-//        $withParams = ['CustomerFission', 'CustomerPromotion', 'CustomerShop', 'CustomerShopSupport'];
-//        if (isset($params['with_relations'])) {
-//            $model = $model->with(filter_with_relations($params['with_relations'], $withParams));
-//        }
+        $model = Customer::create();
+        $model->field($model->getFieldData());
 
         if (isset($params['is_shop'])) {
-            $model = $model->where('is_shop', 1);
+            $model->where('is_shop', 1);
         }
         if (isset($params['is_direct_promotion'])) {
-            $model = $model->where('is_direct_promotion', 1);
+            $model->where('is_direct_promotion', 1);
         }
         if (isset($params['is_fission'])) {
-            $model = $model->where('is_fission', 1);
+            $model->where('is_fission', 1);
         }
         if (isset($params['id'])) {
-            $model = $model->where('id', $params['id']);
+            $model->where('customer.id', $params['id']);
         }
         if (isset($params['customer_ids'])) {
-            $model = $model->where(" id IN(".implode(',',$params['customer_ids']).")");
+            $model->where(" customer.id IN(".implode(',',$params['customer_ids']).")");
         }
-//        if (isset($params['shop_store_id'])) {
-//            $model = $model->whereHas('CustomerShop', function ($query) use ($params){
-//                $query->where('shop_store_id', '=', $params['shop_store_id']);
-//            });
-//        }
+        if (isset($params['shop_store_id'])) {
+            $model->join('customer_shop','customer_shop.customer_id = customer.id')->where('shop_store_id', $params['shop_store_id']);
+        }
 //        if (isset($params['customer_shop_phone'])) {
 //            $model = $model->whereHas('CustomerShop', function ($query) use ($params){
 //                $query->where('phone', '=', $params['customer_shop_phone']);
@@ -63,21 +57,25 @@ class BaseRepository implements BaseRepositoryInterface
 //        }
 
         foreach ($sort as $key=>$value) {
-            $model = $model->order($key, $value);
+            $model->order($key, $value);
         }
 
         if ($pageSize) {
-            $model = $model->limit($pageSize * ($page-1),$pageSize)->withTotalCount();
-            $data = $model->findAll();
+            $model->limit($pageSize * ($page-1),$pageSize)->withTotalCount();
+            $data = $model->select();
             return [ 'page' => $page , 'page_size' => $pageSize , 'data' => $data ];
         } else {
-            return $model->findAll();
+            return $model->select();
         }
     }
+
+
+
 
     public function listCustomerProductWeixinByParams($params, $sort = ['id'=>'desc'], $pageSize = null, $page =1)
     {
         $model = new CustomerProductWeixin();
+
 
         if (isset($params['customer_id'])) {
             $model = $model->where('customer_id', '=', $params['customer_id']);
@@ -113,6 +111,8 @@ class BaseRepository implements BaseRepositoryInterface
         }
     }
 
+
+
     public function listCustomerShopByParams($params, $sort = ['id'=>'desc'], $pageSize = null, $page =1)
     {
         $model = new CustomerShop();
@@ -130,8 +130,7 @@ class BaseRepository implements BaseRepositoryInterface
 //            $model = $model->where('product_weixin_id', '=', $params['product_weixin_id']);
 //        }
         if (isset($params['customer_ids'])) {
-//            $model = $model->where(" customer_ids IN(".implode(',',$params['support_user_account_ids']).")");
-            $model = $model->where(" customer_id IN(344414, 344415)");
+            $model = $model->where(" customer_id IN(".implode(',',$params['support_user_account_ids']).")");
         }
 //        if (isset($params['product_weixin_ids'])) {
 //            $model = $model->where(" product_weixin_id IN(".implode(',',$params['product_weixin_ids']).")");

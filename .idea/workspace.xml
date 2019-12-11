@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="" />
+    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/BaseBuilders.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/BaseBuilders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/pid.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/pid.pid" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,23 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#118#171#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+            <state relative-caret-position="-1047">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <element signature="e#125#161#0#PHP" expanded="true" />
               </folding>
@@ -37,23 +34,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/BaseBuilders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+            <state relative-caret-position="600">
+              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
               <folding>
-                <element signature="e#145#194#0#PHP" expanded="true" />
+                <element signature="e#144#199#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/HttpController/publicCallController.php">
+        <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -66,6 +81,7 @@
       <find>listCustomerByParams</find>
       <find>with</find>
       <find>handleRelation</find>
+      <find>$with</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,21 +126,21 @@
         <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShop.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShopSupport.php" />
         <option value="$PROJECT_DIR$/Log/log.log" />
-        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerFission.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerShopSupportBuilders.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerPromotionBuilders.php" />
-        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/App/Utils/common_utils.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Utils/common_utils.php" />
-        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerShopBuilders.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilders.php" />
         <option value="$PROJECT_DIR$/App/Builders/CustomerBuilder.php" />
-        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" />
-        <option value="$PROJECT_DIR$/App/HttpController/BaseBuilders.php" />
         <option value="$PROJECT_DIR$/App/HttpController/publicCallController.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/BaseBuilders.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" />
       </list>
     </option>
   </component>
@@ -170,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,17 +201,76 @@
             <path>
               <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Crontab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpController" type="462c0819:PsiDirectoryNode" />
+              <item name="Builders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpController" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpController" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpController" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Customer" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpController" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Customer" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyswoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyswoole" type="462c0819:PsiDirectoryNode" />
               <item name="Log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/下载/easyswoole-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../service_orders" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -210,6 +284,7 @@
       <recent name="$PROJECT_DIR$/App/HttpController/Modules/Main/Controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Task" />
       <recent name="$PROJECT_DIR$/App/HttpController/Builders" />
       <recent name="$PROJECT_DIR$/App/HttpController/Modules/Customer/Model" />
       <recent name="$PROJECT_DIR$/App/HttpController" />
@@ -290,12 +365,14 @@
       <workItem from="1575626784725" duration="4000" />
       <workItem from="1575680195231" duration="3124000" />
       <workItem from="1575853477886" duration="17245000" />
-      <workItem from="1575940668396" duration="15627000" />
+      <workItem from="1575940668396" duration="18955000" />
+      <workItem from="1576026640164" duration="123000" />
+      <workItem from="1576027004435" duration="15420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304562000" />
+    <option name="totallyTimeSpent" value="323433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,10 +385,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5005513" side_tool="true" weight="0.29556927" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49944875" visible="true" weight="0.31071228" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49944875" weight="0.31071228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -334,7 +412,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Controller/UserController.php" />
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Model/userBeansss.php" />
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/User/Model/userModelsss.php" />
     <entry file="file://$PROJECT_DIR$/vendor/easyswoole/mysqli/src/Config.php">
@@ -385,13 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Crontab/TaskOne.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -469,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/orm/src/AbstractModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="744" column="9" lean-forward="true" selection-start-line="744" selection-start-column="9" selection-end-line="744" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShopSupportss.php" />
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerShopSupport.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,34 +549,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Log/log.log">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="66" />
-          <folding>
-            <element signature="e#6#84#0#PHP" expanded="true" />
-            <element signature="e#120#144#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerProductWeixin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#141#174#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerFission.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -526,13 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerFissionBuilders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -550,51 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Utils/common_utils.php" />
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#118#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#144#199#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="e#125#161#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/BaseBuilders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerShopBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
@@ -605,19 +589,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Task/ProcessQueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/CustomerProductWeixin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerFissionBuilders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="66" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+            <element signature="e#120#144#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Crontab/TaskOne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/orm/src/AbstractModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#118#171#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/publicCallController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="285">
           <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#141#174#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#144#199#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/BaseBuilders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+        <state relative-caret-position="600">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <element signature="e#145#194#0#PHP" expanded="true" />
+            <element signature="e#125#161#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

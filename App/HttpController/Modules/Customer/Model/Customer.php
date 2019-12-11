@@ -15,4 +15,19 @@ class Customer extends AbstractModel
 {
     protected $tableName = 'customer';
 
+    public function getFieldData()
+    {
+        $params = [
+                    'customer.id',
+                    'customer.is_shop',
+                    'customer.is_direct_promotion',
+                    'customer.is_fission',
+                    'customer.created_at',
+                    'customer.updated_at'
+                   ];
+        return implode(',',$params);
+    }
+
+
+
 }

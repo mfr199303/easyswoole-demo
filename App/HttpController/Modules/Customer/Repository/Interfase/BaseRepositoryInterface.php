@@ -11,7 +11,7 @@ namespace App\HttpController\Modules\Customer\Repository\Interfase;
 
 interface BaseRepositoryInterface
 {
-    public function listCustomerByParams($params, $sort = ['id'=>'desc'], $pageSize = null,$page =1);
+    public function listCustomerByParams($params, $sort = ['customer.id'=>'desc'], $pageSize = null,$page =1);
 
     public function listCustomerProductWeixinByParams($params, $sort = ['id'=>'desc'], $pageSize = null,$page =1);
 

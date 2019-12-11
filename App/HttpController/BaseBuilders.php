@@ -92,7 +92,9 @@ abstract class BaseBuilders
     {
         $this->initBuilder();
 
-        if (isset($data)) {
+        if (isset($data['data'])) {
+            $this->data = &$data['data'];
+        } else {
             $this->data = &$data;
         }
 
