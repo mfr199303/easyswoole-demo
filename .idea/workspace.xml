@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/Interfase/BaseRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/pid.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/pid.pid" afterDir="false" />
-    </list>
+    <list default="true" id="3c83b858-7960-4143-a6d4-b71247804437" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
+            <state relative-caret-position="1120">
               <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
               <folding>
                 <element signature="e#125#161#0#PHP" expanded="true" />
@@ -37,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="156" column="2" selection-start-line="156" selection-start-column="2" selection-end-line="156" selection-end-column="2" />
+            <state relative-caret-position="560">
+              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
             </state>
           </provider>
         </entry>
@@ -55,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
+            <state relative-caret-position="1680">
               <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
               <folding>
                 <element signature="e#144#199#0#PHP" expanded="true" />
@@ -67,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
+            <state relative-caret-position="720">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#118#171#0#PHP" expanded="true" />
@@ -192,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,7 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,11 +355,12 @@
       <workItem from="1576630985592" duration="12878000" />
       <workItem from="1576719337181" duration="10129000" />
       <workItem from="1576748089822" duration="602000" />
+      <workItem from="1576805108756" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367183000" />
+    <option name="totallyTimeSpent" value="368209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,7 +661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Builders/CustomerBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
+        <state relative-caret-position="1120">
           <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
           <folding>
             <element signature="e#125#161#0#PHP" expanded="true" />
@@ -686,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Repository/BaseRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
+        <state relative-caret-position="1680">
           <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
           <folding>
             <element signature="e#144#199#0#PHP" expanded="true" />
@@ -696,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
+        <state relative-caret-position="720">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#118#171#0#PHP" expanded="true" />
@@ -706,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="156" column="2" selection-start-line="156" selection-start-column="2" selection-end-line="156" selection-end-column="2" />
+        <state relative-caret-position="560">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>
