@@ -10,6 +10,7 @@ namespace App\HttpController\Modules\Customer\Repository;
 
 use App\HttpController\Modules\Customer\Model\Customer;
 use App\HttpController\Modules\Customer\Model\CustomerProductWeixin;
+use App\HttpController\Modules\Customer\Model\CustomerPromotion;
 use App\HttpController\Modules\Customer\Model\CustomerShop;
 use App\HttpController\Modules\Customer\Model\CustomerShopSupport;
 use App\HttpController\Modules\Customer\Repository\Interfase\BaseRepositoryInterface;
@@ -38,23 +39,21 @@ class BaseRepository implements BaseRepositoryInterface
             $model->where(" customer.id IN(".implode(',',$params['customer_ids']).")");
         }
         if (isset($params['shop_store_id'])) {
-            $model->join('customer_shop','customer_shop.customer_id = customer.id')->where('shop_store_id', $params['shop_store_id']);
+            $model->join('customer_shop','customer_shop.customer_id = customer.id');
+            $model->where('customer_shop.shop_store_id', $params['shop_store_id']);
         }
-//        if (isset($params['customer_shop_phone'])) {
-//            $model = $model->whereHas('CustomerShop', function ($query) use ($params){
-//                $query->where('phone', '=', $params['customer_shop_phone']);
-//            });
-//        }
-//        if (isset($params['support_user_account_id'])) {
-//            $model = $model->whereHas('CustomerShopSupport', function ($query) use ($params){
-//                $query->where('support_user_account_id', '=', $params['support_user_account_id']);
-//            });
-//        }
-//        if (isset($params['support_user_account_ids'])) {
-//            $model = $model->whereHas('CustomerShopSupport', function ($query) use ($params){
-//                $query->whereIn('support_user_account_id', $params['support_user_account_ids']);
-//            });
-//        }
+        if (isset($params['customer_shop_phone'])) {
+            $model->join('customer_shop','customer_shop.customer_id = customer.id');
+            $model->where('customer_shop.phone', $params['customer_shop_phone']);
+        }
+        if (isset($params['support_user_account_id'])) {
+            $model->join('customer_shop_support','customer_shop_support.customer_id = customer.id');
+            $model->where('customer_shop_support.support_user_account_id', $params['support_user_account_id']);
+        }
+        if (isset($params['support_user_account_ids'])) {
+            $model->join('customer_shop_support','customer_shop_support.customer_id = customer.id');
+            $model->where(" customer_shop_support.support_user_account_id IN(".implode(',',$params['support_user_account_ids']).")");
+        }
 
         foreach ($sort as $key=>$value) {
             $model->order($key, $value);
@@ -69,25 +68,21 @@ class BaseRepository implements BaseRepositoryInterface
         }
     }
 
-
-
-
     public function listCustomerProductWeixinByParams($params, $sort = ['id'=>'desc'], $pageSize = null, $page =1)
     {
-        $model = new CustomerProductWeixin();
-
+        $model = CustomerProductWeixin::create();
 
         if (isset($params['customer_id'])) {
-            $model = $model->where('customer_id', '=', $params['customer_id']);
+            $model = $model->where('customer_id', $params['customer_id']);
         }
         if (isset($params['phone'])) {
-            $model = $model->where('phone', '=', $params['phone']);
+            $model = $model->where('phone', $params['phone']);
         }
         if (isset($params['support_user_account_id'])) {
-            $model = $model->where('support_user_account_id', '=', $params['support_user_account_id']);
+            $model = $model->where('support_user_account_id', $params['support_user_account_id']);
         }
         if (isset($params['product_weixin_id'])) {
-            $model = $model->where('product_weixin_id', '=', $params['product_weixin_id']);
+            $model = $model->where('product_weixin_id', $params['product_weixin_id']);
         }
         if (isset($params['support_user_account_ids'])) {
             $model = $model->where(" support_user_account_id IN(".implode(',',$params['support_user_account_ids']).")");
@@ -104,14 +99,12 @@ class BaseRepository implements BaseRepositoryInterface
         }
         if ($pageSize) {
             $model = $model->limit($pageSize * ($page-1),$pageSize)->withTotalCount();
-            $returnData = $model->findAll();
+            $returnData = $model->select();
             return [ 'page' => $page , 'page_size' => $pageSize , 'data' => $returnData ];
         } else {
-            return $model->findAll();
+            return $model->select();
         }
     }
-
-
 
     public function listCustomerShopByParams($params, $sort = ['id'=>'desc'], $pageSize = null, $page =1)
     {
@@ -156,8 +149,59 @@ class BaseRepository implements BaseRepositoryInterface
 
 
 
+    public function findCustomerProductWeixinByParams($params)
+    {
+        $model = CustomerProductWeixin::create();
 
+        if (isset($params['customer_id'])) {
+            $model->where('customer_id', '=', $params['customer_id']);
+        }
+        if (isset($params['phone'])) {
+            $model->where('phone', '=', $params['phone']);
+        }
+        if (isset($params['support_user_account_id'])) {
+            $model->where('support_user_account_id', '=', $params['support_user_account_id']);
+        }
+        if (isset($params['product_weixin_id'])) {
+            $model->where('product_weixin_id', '=', $params['product_weixin_id']);
+        }
 
+        return $model->get();
+    }
+
+    public function findCustomerPromotionByParams($params)
+    {
+        $model = CustomerPromotion::create();
+
+        if (isset($params['customer_id'])) {
+            $model->where('customer_id', $params['customer_id']);
+        }
+        if (isset($params['phone'])) {
+            $model->where('phone', $params['phone']);
+        }
+
+        return $model->get();
+    }
+
+    public function updateCustomerPromotionByData($model, $data)
+    {
+        $customerPromotion = CustomerPromotion::create()->get($model['id']);
+        return $customerPromotion->update($data);
+    }
+
+    public function createCustomerByData($data)
+    {
+        $model = Customer::create($data);
+        $res = $model->save();
+        return $res;
+    }
+
+    public function createCustomerPromotionByData($data)
+    {
+        $model = CustomerPromotion::create($data);
+        $res = $model->save();
+        return $res;
+    }
 
 
 }

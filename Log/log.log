@@ -140,3 +140,5 @@
 [2019-12-11 16:29:00][DEBUG][ERROR] : [Return value of EasySwoole\ORM\AbstractModel::all() must be of the type array, boolean returned at file:/var/www/html/easyswoole/vendor/easyswoole/orm/src/AbstractModel.php line:490]
 [2019-12-11 16:44:36][DEBUG][ERROR] : [Return value of EasySwoole\ORM\AbstractModel::all() must be of the type array, boolean returned at file:/var/www/html/easyswoole/vendor/easyswoole/orm/src/AbstractModel.php line:490]
 [2019-12-11 16:47:13][DEBUG][ERROR] : [swoole exit at file:/var/www/html/easyswoole/App/HttpController/Modules/Customer/Repository/BaseRepository.php line:23]
+[2019-12-12 14:29:15][DEBUG][ERROR] : [swoole exit at file:/var/www/html/easyswoole/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php line:63]
+[2019-12-12 16:03:48][DEBUG][ERROR] : [swoole exit at file:/var/www/html/easyswoole/App/HttpController/Modules/Customer/Controller/CustomerConteroller.php line:63]

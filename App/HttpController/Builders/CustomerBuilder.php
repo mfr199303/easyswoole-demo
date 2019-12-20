@@ -35,20 +35,20 @@ class CustomerBuilder extends BaseBuilders
         return $this->get($this->baseRepository->listCustomerByParams($params,$orderType,$pageSize,$page));
      }
 
-     public function CustomerShopSupport()
-     {
-        return $this->matchOne('App\HttpController\Builders\CustomerShopSupportBuilders', 'id', 'customer_id','customer_ids');
-     }
-
-     public function CustomerFission()
-     {
-        return $this->matchOne('App\HttpController\Builders\CustomerFissionBuilders', 'id', 'customer_id','customer_ids');
-     }
-
-     public function CustomerPromotion()
-     {
-        return $this->matchOne('App\HttpController\Builders\CustomerPromotionBuilders', 'id', 'customer_id','customer_ids');
-     }
+//     public function CustomerShopSupport()
+//     {
+//        return $this->matchOne('App\HttpController\Builders\CustomerShopSupportBuilders', 'id', 'customer_id','customer_ids');
+//     }
+//
+//     public function CustomerFission()
+//     {
+//        return $this->matchOne('App\HttpController\Builders\CustomerFissionBuilders', 'id', 'customer_id','customer_ids');
+//     }
+//
+//     public function CustomerPromotion()
+//     {
+//        return $this->matchOne('App\HttpController\Builders\CustomerPromotionBuilders', 'id', 'customer_id','customer_ids');
+//     }
 
      public function CustomerShop()
      {

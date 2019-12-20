@@ -15,6 +15,7 @@ use App\HttpController\publicCallController;
 use EasySwoole\Http\Message\Status;
 use EasySwoole\Mysqli\Mysqli;
 use App\HttpController\RedisHandler;
+use EasySwoole\ORM\DbManager;
 
 class CustomerConteroller extends publicCallController
 {
@@ -93,7 +94,7 @@ class CustomerConteroller extends publicCallController
 
         $customerBuilder = new CustomerBuilder();
         $withRelations = $request->getRequestParam('with_relations');
-        $withParams = ['CustomerShop'];
+        $withParams = ['CustomerShopSupport','CustomerFission','CustomerPromotion','CustomerShop'];
         if (!empty($withRelations) || is_array($withRelations) || count($withRelations) > 0) {
             $customerBuilder->with($this->filter_with_relations($withRelations, $withParams));
         }
@@ -126,10 +127,7 @@ class CustomerConteroller extends publicCallController
         if (is_array($supportUserAccountIds)) {
             $params['support_user_account_ids'] = $supportUserAccountIds;
         }
-//        $withRelations = Input::get('with_relations', []);
-//        if (is_array($withRelations) && $withRelations) {
-//            $params['with_relations'] = $withRelations;
-//        }
+
         $orderType = $this->handleSort();
         $page = $this->handlePage();
         $pageSize = intval($request->getRequestParam('page_size'));
@@ -139,42 +137,90 @@ class CustomerConteroller extends publicCallController
         return $this->success($returnData);
     }
 
-    // 下面继续写
     public function getCustomerProductWeixinInfo()
     {
+        $request = $this->request();
         $params = [];
 
-        $phone = Input::get('phone', null);
+        $phone = $request->getRequestParam('phone');
         if ($phone) {
             $params['phone'] = $phone;
         }
-        $supportUserAccountId = Input::get('support_user_account_id', null);
+        $supportUserAccountId = $request->getRequestParam('support_user_account_id');
         if ($supportUserAccountId) {
             $params['support_user_account_id'] = $supportUserAccountId;
         }
-        $productWeixinId = Input::get('product_weixin_id', null);
+        $productWeixinId = $request->getRequestParam('product_weixin_id');
         if ($productWeixinId) {
             $params['product_weixin_id'] = $productWeixinId;
         }
-        $customerIds = Input::get('customer_ids', null);
+        $customerIds = $request->getRequestParam('customer_ids');
         if (is_array($customerIds)) {
             $params['customer_ids'] = $customerIds;
         }
-        $supportUserAccountIds = Input::get('support_user_account_ids', null);
+        $supportUserAccountIds = $request->getRequestParam('support_user_account_ids');
         if (is_array($supportUserAccountIds)) {
             $params['support_user_account_ids'] = $supportUserAccountIds;
         }
-        $withRelations = Input::get('with_relations', []);
-        if (is_array($withRelations) && $withRelations) {
-            $params['with_relations'] = $withRelations;
+
+        $returnData = $this->baseRepository->findCustomerProductWeixinByParams($params);
+        if (empty($returnData)){
+            return $this->success([]);
         }
-
-        $returnData = $this->customerRepository->findCustomerProductWeixinByParams($params);
-
         return $this->success($returnData);
     }
 
+    public function getAndCreateCustomerPromotionInfo()
+    {
+        $request = $this->request();
+        $phone =$request->getRequestParam('phone');
+        $productWeixinId = $request->getRequestParam('product_weixin_id');
+        if (!$phone || !$productWeixinId) {
+            return $this->error(1000,'缺少参数');
+        }
+        $supportUserAccountId = $request->getRequestParam('support_user_account_id');
+        $promotionUserAccountId = $request->getRequestParam('promotion_user_account_id');
+        $weixinAccount =$request->getRequestParam('weixin_account');
+        $promotionChannelId = $request->getRequestParam('promotion_channel_id');
+        $productId = $request->getRequestParam('product_id');
+        $joinTime = $request->getRequestParam('join_time');
+        $joinTime = $joinTime ? date('Y-m-d',strtotime($joinTime)) : null;
+        $customerPromotionTemp = [ 'phone' => $phone, 'product_weixin_id' => $productWeixinId ];
+        $hasCustomerPromotion = $this->baseRepository->findCustomerPromotionByParams($customerPromotionTemp);
+        try {
+            DbManager::getInstance()->startTransaction();
+            if ($hasCustomerPromotion) {
+                return $this->success($this->baseRepository->updateCustomerPromotionByData($hasCustomerPromotion, [
+                    'support_user_account_id' => $supportUserAccountId,
+                    'promotion_user_account_id' => $promotionUserAccountId,
+                    'weixin_account' => $weixinAccount,
+                    'promotion_channel_id' => $promotionChannelId,
+                    'product_id' => $productId,
+                    'join_time' => $joinTime
+                ]));
+            }
+            $customer = $this->baseRepository->createCustomerByData([
+                'is_direct_promotion' => 1
+            ]);
+            $customerInfo = $this->baseRepository->createCustomerPromotionByData([
+                'customer_id' => $customer->id,
+                'phone' => $phone,
+                'product_weixin_id' => $productWeixinId,
+                'support_user_account_id' => $supportUserAccountId,
+                'promotion_user_account_id' => $promotionUserAccountId,
+                'weixin_account' => $weixinAccount,
+                'promotion_channel_id' => $promotionChannelId,
+                'product_id' => $productId,
+                'join_time' => $joinTime
+            ]);
+            DbManager::getInstance()->commit();
 
+            return $this->success($customerInfo);
+        } catch (\Exception $e) {
+            DbManager::getInstance()->rollback();
+            return $this->error(3000);
+        }
+    }
 
 
 

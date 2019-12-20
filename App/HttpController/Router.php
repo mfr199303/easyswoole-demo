@@ -21,6 +21,7 @@ class Router extends AbstractRouter
 
           $routeCollector->addRoute('POST', '/getCustomerList', '/Modules\Customer\Controller/CustomerConteroller/getCustomerList');
           $routeCollector->addRoute('POST', '/getCustomerProductWeixinList', '/Modules\Customer\Controller/CustomerConteroller/getCustomerProductWeixinList');
+          $routeCollector->addRoute('POST', '/getCustomerProductWeixinInfo', '/Modules\Customer\Controller/CustomerConteroller/getCustomerProductWeixinInfo');
 
 
         });
